@@ -2,7 +2,7 @@ from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ConversationHandler, CallbackContext
 import configparser
 #
-token = "7852145634:AAGbrQ_FQ4VxZrOqo7OFwqbiIsZkgFZjgdk"
+token =""
 # Определяем состояния для ConversationHandler
 DAY, ROUTE, ADDRESS = range(3)
 
